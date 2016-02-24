@@ -20,6 +20,7 @@
 		FF532AD81C7C65ED00B5728F /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF532AD71C7C65ED00B5728F /* csv.swift */; };
 		FF532ADD1C7C6E0900B5728F /* PokemonSolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF532ADC1C7C6E0900B5728F /* PokemonSolid.ttf */; };
 		FF532ADF1C7C7E3400B5728F /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF532ADE1C7C7E3400B5728F /* music.mp3 */; };
+		FF532AE11C7CB42E00B5728F /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF532AE01C7CB42E00B5728F /* PokemonDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		FF532AD71C7C65ED00B5728F /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		FF532ADC1C7C6E0900B5728F /* PokemonSolid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PokemonSolid.ttf; sourceTree = "<group>"; };
 		FF532ADE1C7C7E3400B5728F /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		FF532AE01C7CB42E00B5728F /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				FF532AA31C7B381D00B5728F /* ViewController.swift */,
+				FF532AE01C7CB42E00B5728F /* PokemonDetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				FF532AD61C7B614A00B5728F /* PokeCell.swift in Sources */,
 				FF532AA41C7B381D00B5728F /* ViewController.swift in Sources */,
 				FF532AA21C7B381D00B5728F /* AppDelegate.swift in Sources */,
+				FF532AE11C7CB42E00B5728F /* PokemonDetailVC.swift in Sources */,
 				FF532AD31C7B488300B5728F /* Pokemon.swift in Sources */,
 				FF532AD81C7C65ED00B5728F /* csv.swift in Sources */,
 			);
