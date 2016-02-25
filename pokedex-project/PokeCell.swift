@@ -17,7 +17,7 @@ class PokeCell: UICollectionViewCell {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
-        layer.cornerRadius = 10.0
+        layer.cornerRadius = 5.0
     }
     
     
@@ -25,7 +25,7 @@ class PokeCell: UICollectionViewCell {
         self.pokemon = pokemon
         
         cellLabel.text = pokemon.name.capitalizedString
-        cellImg.image = UIImage(named: "\(self.pokemon.podedexId)")
+        cellImg.image = UIImage(named: "\(self.pokemon.pokedexId)")
     }
     
 

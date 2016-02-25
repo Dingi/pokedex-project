@@ -86,9 +86,9 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
     }
     
-    func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) {
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         
-        var poke: Pokemon!
+        let poke: Pokemon!
         
         if inSearchMode{
             poke = filteredPokemon[indexPath.row]
